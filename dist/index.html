@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Number Guesser Game</title>
+    <script type="module" crossorigin src="/assets/index-772b2133.js"></script>
+    <link rel="stylesheet" href="/assets/index-d270c485.css">
+  </head>
+  <body>
+    <main
+      class="gap-3 text-xl flex flex-col justify-center items-center p-2 bg-slate-200 h-screen"
+    >
+      <h1 class="font-extrabold text-3xl">Number Guesser Game</h1>
+      <p>Guess the number between 1 and 10:</p>
+      <input
+        class="outline-none border border-gray-400 rounded-xl px-3 py-2"
+        type="number"
+        id="guess"
+        placeholder="range: (1-10)"
+      />
+      <button class="btn" id="guessBtn">Submit Guess</button>
+      <p class="hidden font-bold" id="lastNum">
+        Last number you have guessed: <span></span>
+      </p>
+      <p>Chances left: <span id="chances">3</span></p>
+      <p class="p-2 success" id="result"></p>
+      <button class="btn" id="restart">Restart</button>
+    </main>
+    
+  </body>
+</html>
