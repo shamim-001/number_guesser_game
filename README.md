@@ -32,12 +32,12 @@ To run this project locally, follow these steps:
 1. Clone the repository from GitHub:
 
    ```bash
-   git clone
+   git clone git@github.com:shamim-001/number_guesser_game.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd
+   cd number_guesser_game
    ```
 3. Install project dependencies:
 
@@ -53,4 +53,4 @@ To run this project locally, follow these steps:
 
 ## Deployment
 
-This project is deployed on Vercel. You can access the live demo <a href="" target="_blank">here</a>.
+This project is deployed on Vercel. You can access the live demo <a href="https://number-guesser-game-jet.vercel.app/" target="_blank">here</a>.
